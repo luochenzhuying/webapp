@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Blog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>My Blog</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    
+  </header>
+
+  <main>
+    <section class="filter-section">
+      <h2>Filter Blog Posts</h2>
+      <div class="filter-options">
+        <input type="checkbox" id="technology" name="category" value="technology">
+        <label for="technology">Technology</label>
+        
+        <input type="checkbox" id="lifestyle" name="category" value="lifestyle">
+        <label for="lifestyle">Lifestyle</label>
+
+        <input type="checkbox" id="business" name="category" value="business">
+        <label for="business">Business</label>
+
+        <button id="filterButton">Filter</button>
+      </div>
+    </section>
+
+    <section class="blog-section">
+      <h2>Blog Posts</h2>
+      <div class="blog-posts">
+        <!-- Blog post items will be dynamically displayed here -->
+        <article class="post technology">
+          <h3>Latest in Tech</h3>
+          <p>This is a blog post about the latest in technology.</p>
+        </article>
+        
+        <article class="post lifestyle">
+          <h3>Healthy Living</h3>
+          <p>This blog post is about maintaining a healthy lifestyle.</p>
+        </article>
+        
+        <article class="post business">
+          <h3>Business Trends</h3>
+          <p>Learn about the latest trends in the business world.</p>
+        </article>
+
+        <article class="post technology">
+          <h3>AI and the Future</h3>
+          <p>This post discusses artificial intelligence and its impact on the future.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 My Blog. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

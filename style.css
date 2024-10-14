@@ -1,0 +1,49 @@
+/* styles.css */
+
+/* General styling for desktop */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  /* Mobile Styling*/
+  @media (max-width: 768px) {
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+    
+    header {
+      text-align: left;
+      padding: 10px;
+    }
+  
+    main {
+      padding: 10px;
+    }
+  }
+  
+
+  
