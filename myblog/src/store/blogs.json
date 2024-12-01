@@ -1,0 +1,26 @@
+{
+    "blogs": [
+      {
+        "id": 1,
+        "title": "Getting Started with Vue.js",
+        "tags": ["Vue", "Frontend"],
+        "content": "What is Vue? Vue (pronounced /vjuː/, like view) is a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a declarative, component-based programming model that helps you efficiently develop user interfaces of any complexity.Here is a minimal example:'",
+        "date": "2024-11-01"
+      },
+      {
+        "id": 2,
+        "title": "The Art of Personal Blogging",
+        "tags": ["Blogging"],
+        "content": "Personal blogging is a way to share your thoughts, experiences, and interests online. It can be a way to connect with others who share your interests. Here are some tips for personal blogging:Share consistently.Share your content creatively across social media platforms. You can also re-share content from others to keep your content fresh. Tag and hashtag.Tag the websites you reference in your content to show you appreciate them. You can also use relevant hashtags in your posts.",
+        "date": "2024-11-10"
+      },
+      {
+        "id": 3,
+        "title": "Advanced Vue Techniques",
+        "tags": ["Vue", "Advanced"],
+        "content": "As web applications grow in complexity, managing the navigation structure becomes increasingly important. Vue.js offers an intuitive routing system that simplifies this process, but as your app expands, basic routing techniques may no longer be sufficient. In this article, we’ll explore advanced Vue.js routing techniques that allow you to navigate complex web applications seamlessly.Whether you’re building multi-level nested routes, managing authentication with route guards, or optimizing page loads with lazy loading, this guide will take you through the essential strategies to elevate your Vue.js routing skills.",
+        "date": "2024-11-15"
+      }
+    ]
+}
+  
